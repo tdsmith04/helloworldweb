@@ -5,7 +5,7 @@ node ('master') {
         branches: [[name: '*/master']], 
         extensions: [], 
         userRemoteConfigs: [[credentialsId: 'github-user', 
-        url: 'https://github.com/ganeshhp/helloworldweb.git']]])\
+        url: 'https://github.com/tdsmith04/helloworldweb.git']]])\
     }
 
     stage ('build') {
