@@ -13,7 +13,7 @@ node ('master') {
     }
 
     stage ('deployToPackageRepo') {
-    sh 'curl -uuser1:AP66t4pw1kd3V2Bky7e5NJJntcr -T ./Helloworldwebapp-dev.war "https://plusf.jfrog.io/artifactory/webapplication/Helloworldwebapp-dev.war"'
+    sh 'curl -uuser1:AP66t4pw1kd3V2Bky7e5NJJntcr -T ./target/Helloworldwebapp-dev.war "https://plusf.jfrog.io/artifactory/webapplication/Helloworldwebapp-dev.war"'
     }
 
     input 'Proceed with Archival?'
